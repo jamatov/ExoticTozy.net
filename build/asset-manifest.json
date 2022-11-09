@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.535fd016.css",
+    "main.js": "/static/js/main.c4bb1b34.js",
+    "static/media/bggg.jpg": "/static/media/bggg.ec70e8991d8d99ce3c91.jpg",
+    "static/media/herobgg.jpg": "/static/media/herobgg.dfec3b2c98a38458b9a4.jpg",
+    "static/media/about5.png": "/static/media/about5.eb9ea31caaebd1977f4f.png",
+    "static/media/logo.png": "/static/media/logo.4465e0446fa3d80e37d8.png",
+    "index.html": "/index.html",
+    "main.535fd016.css.map": "/static/css/main.535fd016.css.map",
+    "main.c4bb1b34.js.map": "/static/js/main.c4bb1b34.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.535fd016.css",
+    "static/js/main.c4bb1b34.js"
+  ]
+}

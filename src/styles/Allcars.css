@@ -1,0 +1,150 @@
+.Allcars{
+  padding: 200px 0 300px 0;
+  background-color: #000;
+}
+
+.carsCards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card-info{
+  padding: 20px;
+}
+
+.allcarsCard{
+ 
+  max-width: 350px;
+  height: auto;
+  /* text-align: center; */
+  border: 1px solid goldenrod;
+  box-shadow: inset 1px 3px 5px goldenrod;
+  border-radius: 10px;
+  /* margin: 20px; */
+  /* padding: 20px; */
+  color: black;
+  background-color: #ffffff8b;
+}
+
+.card-img{
+  border-radius: 10px 10px 0 0;
+  object-fit: cover;
+  height: 30%;
+}
+
+.allcarsCard h1{
+  font-family: 'Inter';
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+}
+
+.allcarsCard h1 span{
+  font-family: 'Nuosu SIL', serif;
+  font-size: 20px;
+}
+
+.cardDescription{
+  font-size: 20px;
+}
+
+/* From uiverse.io */
+button {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
+ }
+ 
+ button.learn-more {
+  width: 12rem;
+  height: auto;
+ }
+ 
+ button.learn-more .circle {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: relative;
+  display: block;
+  margin: 0;
+  width: 3rem;
+  height: 3rem;
+  background: black;
+  border-radius: 1.625rem;
+ }
+ 
+ button.learn-more .circle .icon {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #fff;
+ }
+ 
+ button.learn-more .circle .icon.arrow {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  left: 0.625rem;
+  width: 1.125rem;
+  height: 0.125rem;
+  background: none;
+ }
+ 
+ button.learn-more .circle .icon.arrow::before {
+  position: absolute;
+  content: "";
+  top: -0.29rem;
+  right: 0.0625rem;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-top: 0.125rem solid #B28944;
+  border-right: 0.125rem solid #B28944;
+  transform: rotate(45deg);
+ }
+ 
+ button.learn-more .button-text {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.75rem 0;
+  margin: 0 0 0 1.85rem;
+  color: #000;
+  font-weight: 700;
+  line-height: 1.6;
+  text-align: center;
+  text-transform: uppercase;
+ }
+ 
+ button:hover .circle {
+  width: 100%;
+ }
+ 
+ button:hover .circle .icon.arrow {
+  background: #B28944;
+  transform: translate(1rem, 0);
+ }
+ 
+ button:hover .button-text {
+  color: #B28944;
+ }
+
+@media (max-width : 405px) {
+  .allcarsCard{
+    width: 100%;
+  }
+}
+
+
+
+

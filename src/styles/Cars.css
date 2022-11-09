@@ -1,0 +1,130 @@
+#cars{
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.cars-title{
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.cars-info{
+  color: #FFFFFF80;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.cars-cards{
+  display: flex;
+  gap: 20px;
+}
+
+.cars-cards__card{
+  width: 466px;
+  
+}
+
+.cars-cards__card-image{
+  width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.cars-cards__title{
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.cars-cards__info{
+  font-size: 14px;
+  color: #FFFFFF80;
+  margin-bottom: 30px;
+}
+
+.card-price__info{
+  font-size: 13px;
+
+}
+
+.cars-price__number{
+  font-size: 30px;
+  padding: 0 5px;
+  font-weight: bold;
+}
+
+.cars-card__btn{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.cars-card__btn-link{
+  display:block;
+  border-radius: 250px;
+  font-weight: normal;
+  background: transparent;
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px;
+  padding: 15px;
+  width: 194px;
+  height: 54px;
+  transition: ease-in-out 0.5s;
+  border : 2px solid #fff;
+}
+
+
+
+.cars-card__btn-link:hover{
+  color: #000;
+  cursor: pointer;
+  box-shadow: inset 300px 0px 0px 0px #fff;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.cars-wiew-button{
+  margin-top: 60px;
+}
+
+.cars_wiew-btn{
+  padding: 19px 55px 18px;
+  width: 227px;
+  height: 52px;
+  background-color: #FFFFFF14;
+  color: #fff;
+  margin-top: 40px;
+  border-radius: 250px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.cars_wiew-btn:hover{
+  background-color: #fff;
+  color: #000;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 720px){
+  .cars-cards{
+    display: grid;
+    justify-content: center;
+  }
+
+  .cars-title{
+    font-size: 24px;
+  }
+
+}
+
+@media screen and (max-width: 477px){
+  .cars-cards__card{
+    width: auto;
+  }
+  .cars-cards__card-image{
+    width: 100%;
+  }
+}

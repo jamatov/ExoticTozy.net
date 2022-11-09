@@ -1,0 +1,202 @@
+.about-info{
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* gap: 40px; */
+  padding: 150px 0;
+}
+
+.about{
+  background-image: url('../img/bggg.jpg');
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: cover;
+  background-position: left;
+  /* opacity: 0.9; */
+  width: 100%;
+  height: auto;
+  /* background-color: #000; */
+  
+
+}
+
+.about-tittle{
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: goldenrod;
+  z-index: 2; 
+}
+
+.about-info__cards{
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  gap: 50px;
+}
+
+.about-info__cards-card{
+  max-width: 250px;
+  margin-bottom: 70px;
+}
+
+.about-info__cars-info{
+  font-size: 24px;
+  /* color: rgba(0, 0, 0, 0.5); */
+  margin-bottom: 20px;
+}
+
+.card-image{
+  width: 100%;
+  height: 160px;
+  margin-bottom: 20px;
+}
+
+.card-title{
+  color: #000;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.card-info{
+  font-size: 14px;
+  color: #00000080;
+}
+
+
+.about-info__info{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.about-info__info div{
+  width: 400px;
+}
+
+.about-image{
+  margin-top: auto;
+  max-width: 550px !important;
+  height: auto;
+
+}
+
+.about-info__txt{
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #fff;
+  line-height: 1.7;
+}
+
+.abuot-info__link{
+  color: #000;
+  text-decoration: none;
+}
+
+.abuot-info__link:hover{
+  color: #000;
+}
+
+.cars-btn{
+  width: 240px;
+  height: 57px;
+  align-items: center;
+  font-family: Montserrat Alternates, sans-serif;
+  color: #000;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  border-radius: 250px;
+  font-weight: bold;
+  padding: 20px 50px 19px;
+  margin-top: 50px;
+  transition: ease-out 0.3s;
+  position: relative;
+  z-index: 1;
+  border: 1px solid #000;
+}
+
+.cars-btn:hover{
+  cursor: pointer;
+  color: #fff;
+  border-radius: 250px;
+
+}
+
+.cars-btn::before{
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  opacity: 0;
+  content: '';
+  background-color: #000;
+  border-radius: 250px;
+
+}
+
+.cars-btn:hover::before{
+  transition: 0.5 all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  z-index: -1;
+}
+
+.abuot-info__link{
+  color: #000;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+
+@media screen and (max-width: 960px) {
+  .about-info{
+    display: block;
+  }
+
+  .about-info__cars{
+    margin-bottom: 50px;
+  }
+
+  .about-tittle{
+    font-size: 30px;
+  }
+
+  .about-tittle{
+    margin-bottom: 20px;
+  }
+
+  .about-info__info{
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 639px){
+  .about-info__cars{
+    display: block;
+    text-align: center;
+  }
+  .about-info__cards{
+    display: grid;
+    justify-content: center;
+  }
+  .about-info__cards-card{
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+  .card-image{
+    width: 100%;
+    height: auto;
+  }
+
+  .mb{
+    margin-bottom: 40px;
+  }
+ 
+}
